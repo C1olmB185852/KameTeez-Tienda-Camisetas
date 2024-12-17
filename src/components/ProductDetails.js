@@ -28,7 +28,7 @@ const productos = [
   {
     id: "1",
     name: "Camiseta de Fútbol Del America",
-    price: 80000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. Liga Betplay Equipo: America de Cali. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -37,7 +37,7 @@ const productos = [
   {
     id: "2",
     name: "Camiseta De Fútbol Del Cali",
-    price: 80000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Cali. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -46,7 +46,7 @@ const productos = [
   {
     id: "3",
     name: "Camiseta De Fútbol Del Atletico Nacional",
-    price: 80000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Atletico Nacional. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -55,7 +55,7 @@ const productos = [
   {
     id: "4",
     name: "Camiseta De Fútbol Del Pereira",
-    price: 65000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Pereira. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -64,7 +64,7 @@ const productos = [
   {
     id: "5",
     name: "Camiseta De Fútbol Del Tolima",
-    price: 80000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Tolima. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -73,7 +73,7 @@ const productos = [
   {
     id: "6",
     name: "Camiseta De Fútbol Del Portugal",
-    price: 80000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. Pais: Portugal. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -82,7 +82,7 @@ const productos = [
   {
     id: "7",
     name: "Camiseta De Fútbol Del Real Madrid",
-    price: 80000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. LaLiga Equipo: Real Madrid. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -91,7 +91,7 @@ const productos = [
   {
     id: "8",
     name: "Camiseta De Fútbol Del Barcelona",
-    price: 80000,
+    price: 35000,
     description:
       "Camiseta-Jersey de Futbol. LaLiga Equipo: Barcelona. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -100,7 +100,7 @@ const productos = [
   {
     id: "9",
     name: "Chaqueta De La Seleccion Colombia",
-    price: 120000,
+    price: 35000,
     description:
       "Chaqueta de Futbol. Pais: Colombia. Chaqueta AAA Buena Calidad. Tallas Disponibles: L-M",
     category: "Hombre",
@@ -109,7 +109,7 @@ const productos = [
   {
     id: "10",
     name: "Chaqueta Del Millonarios",
-    price: 120000,
+    price: 35000,
     description: "Chaqueta Del Millonarios",
     category: "Hombre",
     image: losSimons2,

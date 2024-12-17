@@ -155,7 +155,7 @@ const Cart = () => {
         </div>
         <button
           onClick={handleFinalizarCompra}
-          className="mt-6 bg-blue-600 text-white w-full py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-all"
+          className="mt-6 bg-orange-600 text-white w-full py-3 rounded-lg shadow-lg hover:bg-orange-700 transition-all"
         >
           Finalizar Compra
         </button>
