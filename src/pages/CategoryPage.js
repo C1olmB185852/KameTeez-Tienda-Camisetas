@@ -12,51 +12,51 @@ const CategoryPage = () => {
   const products = [
     {
       id: 1,
-      name: "Camiseta De Fútbol Del America De Cali ",
-      price: 35000,
-      category: "One Piece",
+      name: "Camiseta De Futbol Liverpool ",
+      price: 65000,
+      category: "Premier League",
       image: ZoroOniepice
     },
     {
       id: 2,
-      name: "Camiseta De Fútbol Del Cali",
-      price: 35000,
-      category: "One Piece",
+      name: "Camiseta De Futbol Manchester United",
+      price: 65000,
+      category: "Premier League",
       image: onepiece2
     },
     {
       id: 3,
-      name: "Camiseta De Fútbol Del Atletico Nacional",
-      price: 35000,
-      category: "One Piece",
+      name: "Camiseta De Futbol Mancherter City",
+      price: 65000,
+      category: "Premier League",
       image: onepiece3
     },
     {
       id: 4,
-      name: "Camiseta De Fútbol Del Pereira",
-      price: 35000,
-      category: "One Piece",
+      name: "Camiseta De Futbol Milan",
+      price: 65000,
+      category: "Serie A",
       image: onepiece4
     },
     {
       id: 5,
-      name: "Camiseta De Fútbol Del Tolima",
-      price: 35000,
-      category: "Naruto",
+      name: "Camiseta De Futbol Bayern Munich",
+      price: 65000,
+      category: "BundesLiga",
       image: naruto1
     },
   {
       id: 6,
-      name: "Camiseta De Fútbol Del Portugal",
-      price: 35000,
-      category: "Dragon Ball Z",
+      name: "Camiseta De Futbol Real Madrid (Retro)",
+      price: 65000,
+      category: "Liga Española",
       image: dragonball1
   },
     {
       id: 7,
-      name: "Camiseta De Fútbol Del Real Madrid",
-      price: 35000,
-      category: "Dragon Ball Z",
+      name: "Camiseta De Fútbol Real Madrid",
+      price: 65000,
+      category: "Liga Española",
       image: dragonball2
     },
     {

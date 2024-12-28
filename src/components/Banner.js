@@ -5,8 +5,8 @@ import { banner1, EquiposNacionales, banner2, Anuncio } from '../assets';
 const Banner = () => {
     const data = [
         { image: banner1, alt: 'Liga Española - Imagen 1' },
-        { image: banner2, alt: 'Liga Española - Imagen 2' },
-        { image: EquiposNacionales, alt: 'Liga Española - Imagen 3' },
+        // { image: banner2, alt: 'Liga Española - Imagen 2' },
+        // { image: EquiposNacionales, alt: 'Liga Española - Imagen 3' },
     ];
 
     const [currentSlide, setCurrentSlide] = useState(0);

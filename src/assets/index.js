@@ -1,8 +1,6 @@
 import logoCarrito from "./logoCarrito.png"
-import LogoGitHub from "./LogoGitHub.png"
-import LogoGoogle from "./LogoGoogle.png"
 import iconoPagina from "./icon.jpg"
-import ZoroOniepice from "./onepiece1.png"
+import ZoroOniepice from "./onepiece1.jpg"
 import onepiece2 from "./onepiece2.jpg"
 import onepiece3 from "./onepiece3.jpg"
 import onepiece4 from "./onepiece4.jpg"
@@ -26,6 +24,6 @@ import Anuncio from "./Anuncio.jpg"
 
 
 
-export {banner2, EquiposNacionales, banner1, onepiece4, naruto1, dragonball1, onepiece3, LogoGoogle, LogoGitHub, onepiece2, 
+export {banner2, EquiposNacionales, banner1, onepiece4, naruto1, dragonball1, onepiece3, onepiece2, 
 logoCarrito, iconoPagina, dragonball2, wolverine, losSimons, losSimons2, ligaEspañolaa, Anuncio,
 ligaBetPlay, LigaPremierLeague, LigaAlemana, LigaItaliana, LigaFrancesa, bannerDragonBall, ZoroOniepice};

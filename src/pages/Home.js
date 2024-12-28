@@ -15,13 +15,13 @@ const Home = () => {
   const navigate = useNavigate();
 
   const mockCategories = [
-    { id: "Dragon Ball Z", name: "Dragon Ball Z", image: bannerDragonBall },
-    { id: "One Piece", name: "One Piece", image: ligaBetPlay },
-    { id: "Naruto", name: "Naruto", image: ligaEspañolaa },
-    { id: "Los Simpson", name: "Los Simpson", image: LigaPremierLeague },
-    { id: "Marvel", name: "Marvel", image: LigaAlemana },
-    { id: "Liga Italiana", name: "Liga Italiana", image: LigaItaliana },
-    { id: "Liga Francesa", name: "Liga Francesa", image: LigaFrancesa },
+    { id: "Liga Española", name: "Liga Española", image: bannerDragonBall },
+    { id: "Premier League", name: "Premier League", image: ligaBetPlay },
+    { id: "Serie A", name: "Serie A", image: ligaEspañolaa },
+    { id: "BundesLiga", name: "BundesLiga", image: LigaPremierLeague },
+    // { id: "Marvel", name: "Marvel", image: LigaAlemana },
+    // { id: "Liga Italiana", name: "Liga Italiana", image: LigaItaliana },
+    // { id: "Liga Francesa", name: "Liga Francesa", image: LigaFrancesa },
 
   ];
 

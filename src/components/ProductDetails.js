@@ -27,70 +27,70 @@ const formatCurrency = (value) =>
 const productos = [
   {
     id: "1",
-    name: "Camiseta de Fútbol Del America",
-    price: 35000,
+    name: "Camiseta de Futbol Liverpool",
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. Liga Betplay Equipo: America de Cali. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+    "Camiseta-Jersey de Futbol. Premier League - Equipo: Liverpool - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: ZoroOniepice,
   },
   {
     id: "2",
-    name: "Camiseta De Fútbol Del Cali",
-    price: 35000,
+    name: "Camiseta De Futbol Manchester United",
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Cali. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+    "Camiseta-Jersey de Futbol. Premier League - Equipo: Manchester United - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: onepiece2,
   },
   {
     id: "3",
-    name: "Camiseta De Fútbol Del Atletico Nacional",
-    price: 35000,
+    name: "Camiseta De Futbol Manchester City",
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Atletico Nacional. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+    "Camiseta-Jersey de Futbol. Premier League - Equipo: Mancherter City - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: onepiece3,
   },
   {
     id: "4",
-    name: "Camiseta De Fútbol Del Pereira",
-    price: 35000,
+    name: "Camiseta De Futbol Milan",
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Pereira. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+    "Camiseta-Jersey de Futbol. Serie A - Equipo: Milan - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: onepiece4,
   },
   {
     id: "5",
-    name: "Camiseta De Fútbol Del Tolima",
-    price: 35000,
+    name: "Camiseta De Futbol Bayern Munich",
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. Liga Betplay Equipo: Tolima. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+    "Camiseta-Jersey de Futbol. BundesLiga - Equipo: Bayern Munich - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: naruto1,
   },
   {
     id: "6",
-    name: "Camiseta De Fútbol Del Portugal",
-    price: 35000,
+    name: "Camiseta De Futbol Del Real Madrid (Retro)",
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. Pais: Portugal. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+      "Camiseta-Jersey de Futbol. LaLiga Equipo: Real Madrid Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: dragonball1,
   },
   {
     id: "7",
-    name: "Camiseta De Fútbol Del Real Madrid",
-    price: 35000,
+    name: "Camiseta De Futbol Del Real Madrid",
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. LaLiga Equipo: Real Madrid. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+      "Camiseta-Jersey de Futbol. LaLiga Equipo: Real Madrid Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: dragonball2,
   },
   {
     id: "8",
-    name: "Camiseta De Fútbol Del Barcelona",
+    name: "Camiseta De Futbol Del Barcelona",
     price: 35000,
     description:
       "Camiseta-Jersey de Futbol. LaLiga Equipo: Barcelona. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",

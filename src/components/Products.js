@@ -10,63 +10,45 @@ const Products = () => {
     const [products] = useState([
     {
       id: 1,
-      name: "Camiseta De Fútbol Del America De Cali ",
-      price: 35000,
+      name: "Camiseta De Fútbol Liverpool ",
+      price: 65000,
       image: ZoroOniepice
     },
     {
       id: 2,
       name: "Camiseta De Fútbol Del Cali",
-      price: 35000,
+      price: 65000,
       image: onepiece2
     },
     {
       id: 3,
-      name: "Camiseta De Fútbol Del Atletico Nacional",
-      price: 35000,
+      name: "Camiseta De Fútbol Mancherter City",
+      price: 65000,
       image: onepiece3
     },
     {
       id: 4,
-      name: "Camiseta De Fútbol Del Pereira",
-      price: 35000,
+      name: "Camiseta De Fútbol Milan",
+      price: 65000,
       image: onepiece4
     },
     {
         id: 5,
-        name: "Camiseta De Fútbol Del Tolima",
-        price: 35000,
+        name: "Camiseta De Fútbol Bayern Munich",
+        price: 65000,
         image: naruto1
       },
     {
         id: 6,
-        name: "Camiseta De Fútbol Del Portugal",
-        price: 35000,
+        name: "Camiseta De Fútbol Del Real Madrid (Retro)",
+        price: 65000,
         image: dragonball1
     },
     {
         id: 7,
         name: "Camiseta De Fútbol Del Real Madrid",
-        price: 35000,
+        price: 65000,
         image: dragonball2
-    },
-    {
-        id: 8,
-        name: "Camiseta De Fútbol Del Barcelona",
-        price: 35000,
-        image: wolverine
-    },
-    {
-        id: 9,
-        name: "Chaqueta De La Seleccion Colombia",
-        price: 35000,
-        image: losSimons
-    },
-    {
-        id: 10,
-        name: "Chaqueta Del Millonarios",
-        price: 35000,
-        image: losSimons2
     },
     
   ]);
