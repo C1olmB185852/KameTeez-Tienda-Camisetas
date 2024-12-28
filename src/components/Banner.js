@@ -51,7 +51,7 @@ const Banner = () => {
                             className="w-full rounded-lg mb-4 shadow-md"
                         />
                         <p className="text-black text-center mb-6">
-                            Aprovecha un **20% de descuento** en todos nuestros productos solo por hoy.
+                            Aprovecha un 20% de descuento en todos nuestros productos. $65.000 cada camiseta de futbol.
                         </p>
                         <div className="flex justify-center">
                             <button
