@@ -64,7 +64,7 @@ const Products = () => {
           Síguenos en Instagram para estar al tanto de nuevas camisetas que tengamos en venta. 
           Salimos como{" "}
           <a 
-            href="https://www.instagram.com/camisetas_sportvibe/" 
+            href="https://www.instagram.com/kameteez/?igsh=dTZuNzAxcjduc253" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-orange-500 hover:underline font-bold"
