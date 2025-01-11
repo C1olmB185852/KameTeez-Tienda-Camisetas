@@ -15,6 +15,10 @@ import {
   wolverine,
   losSimons,
   losSimons2,
+  atletico,
+  barcelona,
+  chelsea,
+  newcastel,
 } from "../assets";
 
 const formatCurrency = (value) =>
@@ -30,7 +34,7 @@ const productos = [
     name: "Camiseta de Futbol Liverpool",
     price: 65000,
     description:
-    "Camiseta-Jersey de Futbol. Premier League - Equipo: Liverpool - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
+      "Camiseta-Jersey de Futbol. Premier League - Equipo: Liverpool - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: ZoroOniepice,
   },
@@ -39,7 +43,7 @@ const productos = [
     name: "Camiseta De Futbol Manchester United",
     price: 65000,
     description:
-    "Camiseta-Jersey de Futbol. Premier League - Equipo: Manchester United - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
+      "Camiseta-Jersey de Futbol. Premier League - Equipo: Manchester United - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: onepiece2,
   },
@@ -48,7 +52,7 @@ const productos = [
     name: "Camiseta De Futbol Manchester City",
     price: 65000,
     description:
-    "Camiseta-Jersey de Futbol. Premier League - Equipo: Mancherter City - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
+      "Camiseta-Jersey de Futbol. Premier League - Equipo: Manchester City - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: onepiece3,
   },
@@ -57,7 +61,7 @@ const productos = [
     name: "Camiseta De Futbol Milan",
     price: 65000,
     description:
-    "Camiseta-Jersey de Futbol. Serie A - Equipo: Milan - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
+      "Camiseta-Jersey de Futbol. Serie A - Equipo: Milan - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: onepiece4,
   },
@@ -66,7 +70,7 @@ const productos = [
     name: "Camiseta De Futbol Bayern Munich",
     price: 65000,
     description:
-    "Camiseta-Jersey de Futbol. BundesLiga - Equipo: Bayern Munich - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
+      "Camiseta-Jersey de Futbol. Bundesliga - Equipo: Bayern Munich - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: naruto1,
   },
@@ -75,44 +79,45 @@ const productos = [
     name: "Camiseta De Futbol Del Real Madrid (Retro)",
     price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. LaLiga Equipo: Real Madrid Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
+      "Camiseta-Jersey de Futbol. LaLiga - Equipo: Real Madrid - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L - XL",
     category: "Hombre",
     image: dragonball1,
   },
   {
     id: "7",
-    name: "Camiseta De Futbol Del Real Madrid",
+    name: "Camiseta De Futbol Del Atletico De Madrid",
     price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. LaLiga Equipo: Real Madrid Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
+      "Camiseta-Jersey de Futbol. LaLiga - Equipo: Atletico De Madrid - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
-    image: dragonball2,
+    image: atletico,
   },
   {
     id: "8",
     name: "Camiseta De Futbol Del Barcelona",
-    price: 35000,
+    price: 65000,
     description:
-      "Camiseta-Jersey de Futbol. LaLiga Equipo: Barcelona. Camiseta AAA Buena Calidad. Tallas Disponibles: L-M",
+      "Camiseta-Jersey de Futbol. LaLiga - Equipo: Barcelona - Camiseta AAA - Buena Calidad. Tallas Disponibles: L",
     category: "Hombre",
-    image: wolverine,
+    image: barcelona,
   },
   {
     id: "9",
-    name: "Chaqueta De La Seleccion Colombia",
-    price: 35000,
+    name: "Camiseta De Futbol Del Chelsea (Blanca)",
+    price: 65000,
     description:
-      "Chaqueta de Futbol. Pais: Colombia. Chaqueta AAA Buena Calidad. Tallas Disponibles: L-M",
+    "Camiseta-Jersey de Futbol. Premier League - Equipo: Chelsea - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
-    image: losSimons,
+    image: chelsea,
   },
   {
     id: "10",
-    name: "Chaqueta Del Millonarios",
-    price: 35000,
-    description: "Chaqueta Del Millonarios",
+    name: "Camiseta De Futbol Del Newcastle United",
+    price: 65000,
+    description:
+    "Camiseta-Jersey de Futbol. Premier League - Equipo: Newcastle United - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
-    image: losSimons2,
+    image: newcastel,
   },
 ];
 
@@ -181,7 +186,6 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      {/* Confirmación de producto añadido */}
       {showConfirmation && (
         <div
           className="fixed top-4 right-4 bg-white border border-blue-200 rounded-lg shadow-lg p-4 z-50 animate-slide-in"
@@ -206,7 +210,7 @@ const ProductDetails = () => {
 };
 
 ProductDetails.propTypes = {
-  id: PropTypes.string,
+  id: PropTypes.string,   
 };
 
 export default ProductDetails;

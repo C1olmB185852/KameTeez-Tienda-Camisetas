@@ -21,9 +21,14 @@ import LigaItaliana from "./LigaItaliana.jpg"
 import LigaFrancesa from "./LigaFrancesa.jpg"
 import bannerDragonBall from "./bannerDragonBall.jpg"
 import Anuncio from "./Anuncio.jpg"
+import atletico from "./atleticodemadrid.jpg"
+import barcelona from "./barcelona.jpg"
+import chelsea from "./chelsea.jpg"
+import newcastel from "./newcastel.jpg"
+
 
 
 
 export {banner2, EquiposNacionales, banner1, onepiece4, naruto1, dragonball1, onepiece3, onepiece2, 
-logoCarrito, iconoPagina, dragonball2, wolverine, losSimons, losSimons2, ligaEspañolaa, Anuncio,
-ligaBetPlay, LigaPremierLeague, LigaAlemana, LigaItaliana, LigaFrancesa, bannerDragonBall, ZoroOniepice};
+logoCarrito, barcelona, iconoPagina, dragonball2, wolverine, losSimons, losSimons2, ligaEspañolaa, Anuncio,
+ligaBetPlay, chelsea, newcastel, LigaPremierLeague, LigaAlemana, LigaItaliana, LigaFrancesa, bannerDragonBall, ZoroOniepice, atletico};

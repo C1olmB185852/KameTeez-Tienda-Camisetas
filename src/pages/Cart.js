@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { useCart } from "./CartContext";
 
 const Cart = () => {
@@ -65,6 +64,7 @@ const Cart = () => {
               <button
                 onClick={() => removeFromCart(item.id)}
                 className="text-gray-500 hover:text-red-600 text-xl md:text-2xl mb-4 md:mb-0 md:mr-4"
+                aria-label={`Eliminar ${item.name}`}
               >
                 &times;
               </button>
@@ -87,6 +87,7 @@ const Cart = () => {
                 <button
                   onClick={() => decreaseQuantity(item.id)}
                   className="w-8 h-8 flex items-center justify-center border border-gray-300 rounded-lg hover:bg-gray-100 transition-all"
+                  aria-label={`Disminuir cantidad de ${item.name}`}
                 >
                   -
                 </button>
@@ -94,6 +95,7 @@ const Cart = () => {
                 <button
                   onClick={() => increaseQuantity(item.id)}
                   className="w-8 h-8 flex items-center justify-center border border-gray-300 rounded-lg hover:bg-gray-100 transition-all"
+                  aria-label={`Aumentar cantidad de ${item.name}`}
                 >
                   +
                 </button>
