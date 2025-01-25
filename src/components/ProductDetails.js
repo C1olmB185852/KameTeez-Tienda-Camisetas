@@ -11,7 +11,7 @@ import {
   onepiece4,
   dragonball1,
   naruto1,
-  dragonball2,
+  barcelonaRetro,
   wolverine,
   losSimons,
   losSimons2,
@@ -19,6 +19,8 @@ import {
   barcelona,
   chelsea,
   newcastel,
+  RealRetro,
+  RealRetro2,
 } from "../assets";
 
 const formatCurrency = (value) =>
@@ -118,6 +120,34 @@ const productos = [
     "Camiseta-Jersey de Futbol. Premier League - Equipo: Newcastle United - Camiseta AAA - Buena Calidad - Version: Aficionado. Tallas Disponibles: L",
     category: "Hombre",
     image: newcastel,
+  },
+
+  {
+    id: "11",
+    name: "Camiseta De Futbol Del Barcelona Retro 2009/2010",
+    price: 75000,
+    description:
+    "Camiseta-Jersey de Futbol. LaLiga - Equipo: Barcelona - Camiseta AAA - Buena Calidad. Tallas Disponibles: L",
+    category: "Hombre",
+    image: barcelonaRetro,
+  },
+  {
+    id: "12",
+    name: "Camiseta De Futbol Del Real Madrid Retro 2006/2007",
+    price: 75000,
+    description:
+    "Camiseta-Jersey de Futbol. LaLiga - Equipo: Real Madrid - Camiseta AAA - Buena Calidad. Tallas Disponibles: XL - L",
+    category: "Hombre",
+    image: RealRetro,
+  },
+  {
+    id: "13",
+    name: "Camiseta De Futbol Del Real Madrid Retro 2017/2018",
+    price: 75000,
+    description:
+    "Camiseta-Jersey de Futbol. LaLiga - Equipo: Real Madrid - Camiseta AAA - Buena Calidad. Tallas Disponibles: XL - L",
+    category: "Hombre",
+    image: RealRetro2,
   },
 ];
 

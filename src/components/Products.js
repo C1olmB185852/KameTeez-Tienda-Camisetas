@@ -3,11 +3,39 @@ import React, { useState } from "react";
 import ProductsCard from "./ProductsCard";
 import { ZoroOniepice, onepiece2, onepiece3, onepiece4, naruto1, dragonball1,
   chelsea, atletico, barcelona,
-  newcastel} from '../assets';
+  newcastel,
+  barcelonaRetro,
+  RealRetro,
+  RealRetro2,
+  RealRetro3} from '../assets';
 
 const Products = () => {
 
     const [products] = useState([
+    {
+        id: 11,
+       name: "Barcelona Retro 2009/2010",
+        price: 75000,
+        image: barcelonaRetro
+    },
+    {
+      id: 12,
+      name: "Real Madrid Retro 2006/2007",
+      price: 75000,
+      image: RealRetro
+    },
+    {
+      id: 13,
+      name: "Real Madrid Retro 2017/2018",
+      price: 75000,
+      image: RealRetro2
+    },
+    {
+      id: 14,
+      name: "Real Madrid Retro 2006/2007",
+      price: 75000,
+      image: RealRetro3
+    },
     {
       id: 1,
       name: "Liverpool 2023/2024",
@@ -69,12 +97,6 @@ const Products = () => {
       image: newcastel
      },
 
-    // {
-        // id: 7,
-        // name: "Camiseta De Fútbol Del Real Madrid",
-        // price: 65000,
-        // image: dragonball2
-    // },
     
   ]);
   

@@ -4,7 +4,11 @@ import { ZoroOniepice, onepiece2, onepiece3, onepiece4, dragonball1,
   naruto1, dragonball2, wolverine, losSimons, newcastel, 
   chelsea,
   barcelona,
-  atletico} from "../assets";
+  atletico,
+  barcelonaRetro,
+  RealRetro,
+  RealRetro2,
+  RealRetro3} from "../assets";
 import ProductsCard from "../components/ProductsCard"; 
 
 const CategoryPage = () => {
@@ -81,6 +85,34 @@ const CategoryPage = () => {
       price: 65000,
       category: "Premier League",
       image: newcastel
+    },
+    {
+      id: 11,
+      name: "Barcelona 2009/2010",
+      price: 75000,
+      category: "Liga Española",
+      image: barcelonaRetro
+    },
+    {
+      id: 12,
+      name: "Real Madrid 2006/2007",
+      price: 75000,
+      category: "Liga Española",
+      image: RealRetro
+    },
+    {
+      id: 13,
+      name: "Real Madrid 2017/2018",
+      price: 75000,
+      category: "Liga Española",
+      image: RealRetro2
+    },
+    {
+      id: 14,
+      name: "Real Madrid 2006/2007",
+      price: 75000,
+      category: "Liga Española",
+      image: RealRetro3
     },
   ];
 
